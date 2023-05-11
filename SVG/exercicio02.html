@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+  </head>
+  <body>
+    
+    
+    <svg width="800" height="800">
+    <path d="M 0 300 Q 200 100, 400 300 Q 600 50, 800 300" fill="#8DBF67" />
+    <circle cx="700" cy="100" r="50" fill="yellow" stroke="yellow" stroke-width="1"></circle>
+
+    <path d="M 100 250 Q 160 180 230 250" stroke="green" fill="green" transform="rotate(-90 150 190)translate (-90 -70)"/>
+    <path d="M 100 250 Q 160 180 230 250" stroke="green" fill="green" transform="rotate(90 80 400) translate (-220 90)" tra/>
+    <rect x="125" y="310" width="30" height="60" fill="brown" ></rect>
+    <path d="M 400 300 C 370 380, 500 400, 200 550" stroke="grey" fill="transparent" stroke-width="18" />
+    
+    <!--<circle cx="0" cy="190" r="3" fill="red" /> -->
+  <!-- Desenha linhas verticais do reticulado -->
+  <g stroke="lightgray" stroke-width="0.5">
+    <line x1="50" y1="0" x2="50" y2="200" />
+    <line x1="100" y1="0" x2="100" y2="200" />
+    <line x1="150" y1="0" x2="150" y2="200" />
+    <line x1="200" y1="0" x2="200" y2="200" />
+    <line x1="250" y1="0" x2="250" y2="200" />
+  </g>
+
+  <!-- Desenha linhas horizontais do reticulado -->
+  <g stroke="lightgray" stroke-width="0.5">
+    <line x1="0" y1="50" x2="300" y2="50" />
+    <line x1="0" y1="100" x2="300" y2="100" />
+    <line x1="0" y1="150" x2="300" y2="150" />
+  </g>
+
+  <!-- Desenha o eixo X -->
+  <line x1="0" y1="0" x2="300" y2="00" stroke="gray" stroke-width="1" />
+  <!-- Desenha o eixo Y -->
+  <line x1="0" y1="0" x2="0" y2="200" stroke="gray" stroke-width="1" />
+
+  
+
+  <!-- Desenha os valores das coordenadas -->
+  <g font-size="8" font-family="sans-serif" fill="black">
+    <text x="50" y="190">50</text>
+    <text x="100" y="190">100</text>
+    <text x="150" y="190">150</text>
+    <text x="200" y="190">200</text>
+    <text x="250" y="190">250</text>
+    <text x="5" y="50">50</text>
+    <text x="5" y="100">100</text>
+    <text x="5" y="150">150</text>
+  </g>
+  
+</svg>
